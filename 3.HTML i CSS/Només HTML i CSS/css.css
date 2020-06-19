@@ -1,0 +1,130 @@
+:root{
+    --main-nav: #555555;
+    --secondMain: hsl(0, 0%, 84%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+/* NAVBAR */
+
+#mainNav, form, .block1, #navegate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mainNav{
+    background-color: var(--main-nav);
+    height: 8%;
+    padding: 0 5%;
+    color: white;
+}
+
+#buscador{
+    border: none;
+    border-radius: 100px;
+    padding: 8px 15px;
+    width: 30vw;
+    min-width: 150px;
+    font-size: 0.9em;
+}
+
+.material-icons{
+    margin: 0 15px;
+}
+
+.material-icons:hover, #mainNav h1{
+    cursor: pointer;
+}
+
+/* MAIN PAGE */
+
+#mainPage{
+    height: 92%;
+    width: 100%;
+    background-color: var(--secondMain);
+}
+
+.block1{
+    width: 80%;
+    margin: auto;
+}
+
+.b1special{
+    position: absolute;
+    width: 100%;
+    margin-top: 60vh;
+    justify-content: center;
+}
+
+.llibre{
+    background-color: var(--main-nav);
+    height: 22vh;
+    width: 17vw;
+    font-size: 1.4em;
+    margin: 0 2%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navegate{
+    margin-top: 35vh;
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+
+#navegate span{
+    font-size: 7em;
+}
+
+/* SECOND SCROLL*/
+
+.group{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.group h2{margin-bottom: 40px;}
+.group .block1{margin-bottom: 40px;}
+
+.block2{
+    width: 100%;
+    margin: auto;
+    height: 270px;
+    overflow-y: hidden;
+    margin: 0px 0 20px 0px;
+}
+
+.genere{
+    background-color: var(--main-nav);
+    height: 270px;
+    width: 170px;
+    font-size: 1.4em;
+    color: white;
+    display: inline-block;
+    margin: 0 11px;
+}
+
+
+/* WHOLE */
+
+.whole{
+    width: 100%;
+    background-color: var(--secondMain);
+    height: 300px;
+    margin: 50px 0 50px 0px;
+}
+
