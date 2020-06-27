@@ -1,0 +1,70 @@
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    color: white;
+}
+.material-icons{
+    opacity: 0.6;
+    font-size: 2em;
+    cursor: pointer;
+}
+.material-icons:hover{
+    opacity: 0.9;
+}
+
+.navbar-item .material-icons{
+    margin-left: 30px;
+}
+
+.m-1{
+    background-color: grey;
+    height: 200px;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 60vh;
+    background-color: #b9b9b9;
+    margin-bottom: 10vh;
+}
+
+.fullWidth{
+    height: 250px;
+    width: 100vw;
+    background-color: rgb(173, 173, 173);
+    z-index: 999;
+    margin: 10vh 0;
+}
+
+footer{
+    margin-top: 10vh;
+    width: 100vw;
+    height: 150px;
+}
+
+@media screen and (min-width: 768px){
+    #title1{display: inline}
+    #title2{display: none}
+
+    #col1{
+        width: 400px;
+    }
+    #search{
+        width: 180%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #title1{display: none}
+    #title2{display: inline}
+
+    #col1{
+        width: 240px;
+    }
+    #search{
+        width: 170%;
+    }
+}
